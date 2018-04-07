@@ -67,6 +67,9 @@
                 <li>
                   <a href="mat.php">Material</a>
                 </li>
+                <li>
+                  <a href="rop.php">Reorder Point</a>
+                </li>
               </ul>
             </li>
            <!-- <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
@@ -136,6 +139,12 @@
               <a class="nav-link" href="#">
                 <i class="fas fa-warehouse" id="fa-wh"></i>
                 <span class="nav-link-text">Inventory</span>
+              </a>
+            </li>
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
+              <a class="nav-link" href="#">
+                <i class="fas fa-filter" id="fa-wh"></i>
+                <span class="nav-link-text">Report</span>
               </a>
             </li>
           </ul>

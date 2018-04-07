@@ -12,7 +12,7 @@
 
        <div class="content-wrapper">
            <div class="content container">
-            <strong style="font-size: 36px;">Material: Create</strong>
+            <strong style="font-size: 36px;">Reorder Point: Setting</strong>
                 <div class="row-fluid BOM bg-white">
                     <div class="col-12 line-doc">
                         <h4>Detail</h4>
@@ -22,29 +22,25 @@
                            <tbody>
                                <tr>
                                    <td>Material</td>
-                                   <td><input id="mat-id" type="text" class="form-control" name="" style="width: 60%;"></td>
+                                   <th>FG30001</th>
                                </tr>
                                <tr>
                                    <td>Description</td>
-                                   <td><input id="mat-id" type="text" class="form-control" name="" style="width: 60%;"></td>
+                                   <td>น้ำดื่ม ปริมาณ 330 มิลลิลิตร</td>
                                </tr>
                                <tr>
-                                   <td>Material type</td>
-                                   <td><select class="selection form-control" style="text-align: center; width: 60%">
-                                        <option>Material</option>
-                                        <option>Finish Goods</option>
-                                        <option>Semi Goods</option>
-                                        <option>Tools</option>
-                                    </select></td>
+                                   <td>Demand Rate</td>
+                                   <td><div><input id="mat-id" type="number" class="form-control" name="" style="width: 40%;"></div></td>
+                                   <td>Calculate</td>
+                                   <td><div><input type="date" class="" name=""> to <input type="date" name=""></div></td>
                                </tr>
                                <tr>
-                                   <td>Unit</td>
-                                   <td><select class="selection form-control" style="text-align: center; width: 60%">
-                                        <option>EA</option>
-                                        <option>Liter</option>
-                                        <option>Milliliter</option>
-                                    </select>
-                                  </td>
+                                   <td>Lead time</td>
+                                   <td><input id="mat-id" type="number" class="form-control" name="" style="width: 40%;"></td>
+                               </tr>
+                               <tr>
+                                   <td>Safty Stock</td>
+                                   <td><input id="mat-id" type="number" class="form-control" name="" style="width: 40%;"></td>
                                </tr>
                            </tbody>
                        </table>

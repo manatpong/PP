@@ -13,7 +13,7 @@
        <div class="content-wrapper">
            <div class="content container">
             <strong style="font-size: 36px;">Routing: Display</strong>
-
+            <div class="row"><a href="#" class="btn btn-success" style="margin-left: 25px; margin-bottom: 0px; margin-top: 10px">Graphic</a></div>
                 <div class="row-fluid BOM bg-white">
                     <div class="col-12 line-doc">
                         <h4>Header</h4>
