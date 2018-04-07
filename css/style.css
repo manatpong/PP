@@ -116,3 +116,7 @@ body{
 #chart-object{
 	display: none;
 }
+
+.selection->option{
+	text-align: center;
+}
