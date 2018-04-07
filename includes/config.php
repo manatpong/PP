@@ -9,6 +9,7 @@
         <link rel="stylesheet" type="text/css" href="css/sb-admin.css">
         <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <!--<link rel="stylesheet" type="text/css" href="https://cdn.social-zite.com/style-2018.css">-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
 <?php    
     }
 } ?>
@@ -42,7 +43,7 @@
 <?php function sidebar(){
     if(1){
 ?>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top img-bg-side" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-nav" id="mainNav">
         <a class="navbar-brand" href="index.html"><i class="fas fa-tint"></i> Water</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -121,7 +122,7 @@
               </ul>
             </li>-->
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="forecast.php">
                 <i class="fas fa-random" id="fa-wh"></i>
                 <span class="nav-link-text">Forecase</span>
               </a>
@@ -236,47 +237,6 @@
           </ul>
         </div>
       </nav>
-<?php    
-    }
-} ?>
-
-<?php function NAV_Bar(){
-    if(1){
-?>
-        <nav class="navbar navbar-expand-lg nav-color navbar-light">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <i class="fas fa-user"></i>
-            </form>
-          </div>
-        </nav>  
 <?php    
     }
 } ?>

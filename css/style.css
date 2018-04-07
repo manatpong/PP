@@ -53,7 +53,7 @@ footer .copyright{
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	border: 1px solid #e7e7e7;
-	margin: 20px 40px 60px 80px;
+	margin: 20px 10px 60px 10px;
 }
 .bg-white{
 	background-color: #fff;
@@ -66,6 +66,9 @@ footer .copyright{
 	.img-bg-side{
 		background-color: #343a40;
 	}
+	.bg-nav{
+		background-color: #343a40;
+	}
 }
 @media (min-width: 992px){
 	.img-bg-side{ 
@@ -74,6 +77,9 @@ footer .copyright{
 	}
 	.scroll-v{
 		overflow: scroll;
+	}
+	.bg-nav{
+		background-color: #000000;
 	}
 }
 
@@ -99,5 +105,14 @@ footer .copyright{
 	color: #fff;
 }
 body{
-	min-width: 600px;
+	min-width: 850px;
+}
+.table td{
+	vertical-align: inherit;
+}
+.mat{
+	min-width: 134px;
+}
+#chart-object{
+	display: none;
 }

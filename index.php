@@ -8,9 +8,8 @@
 <body>
     <?php sidebar(); ?>
     <div class="main-panel">
-       <?php //NAV_Bar(); ?>
        <div class="content-wrapper">
-           <div class="content container">
+           <div class="content container-fluid">
                 <div class="row-fluid BOM bg-white">
                     <div class="col-12 line-doc">
                         <h4>BOM header</h4>
