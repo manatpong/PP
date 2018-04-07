@@ -116,3 +116,9 @@ body{
 #chart-object{
 	display: none;
 }
+
+#chartContainer{
+	height: 400px; 
+	width: 100%;
+	margin: auto;
+}

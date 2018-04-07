@@ -8,8 +8,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/sb-admin.css">
         <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <!--<link rel="stylesheet" type="text/css" href="https://cdn.social-zite.com/style-2018.css">-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+
 <?php    
     }
 } ?>
@@ -22,6 +21,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
         <script src="js/sb-admin.min.js"></script>
+        <script src="vendor/canvasjs/canvasjs.min.js"></script>
 <?php    
     }
 } ?>
@@ -128,7 +128,7 @@
               </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="reorder.php">
                 <i class="fas fa-filter" id="fa-wh"></i>
                 <span class="nav-link-text">Reorderpoint</span>
               </a>
