@@ -35,6 +35,7 @@
                     </div>
 
                     <div class="col-12" id="chart-object">
+                      <div class="col-12 text-right"><h6>Next month: 2000 unit</h6></div>
                       <canvas id="mixed-chart" class"form-control"></canvas>
                       <script type="text/javascript">
                         new Chart(document.getElementById("mixed-chart"), {
