@@ -98,3 +98,6 @@ footer .copyright{
 #fa-wh{
 	color: #fff;
 }
+body{
+	min-width: 600px;
+}
