@@ -12,7 +12,7 @@
 
        <div class="content-wrapper">
            <div class="content container">
-            <strong style="font-size: 36px;">Reorder Point: Setting</strong>
+            <strong style="font-size: 36px;">Reorder Point: Edit</strong>
                 <div class="row-fluid BOM bg-white">
                     <div class="col-12 line-doc">
                         <h4>Detail</h4>
@@ -22,29 +22,32 @@
                            <tbody>
                                <tr>
                                    <td>Material</td>
-                                   <th>FG30001</th>
+                                   <th>MAT10001</th>
                                </tr>
                                <tr>
                                    <td>Description</td>
-                                   <td>น้ำดื่ม ปริมาณ 330 มิลลิลิตร</td>
+                                   <td>ขวดน้ำดื่ม ปริมาณ 330 มิลลิลิตร</td>
                                </tr>
                                <tr>
-                                   <td>Demand Rate</td>
-                                   <td><div><input id="mat-id" type="number" class="form-control" name="" style="width: 40%;"></div></td>
-                                   <td>Calculate</td>
-                                   <td><div><input type="date" class="" name=""> to <input type="date" name=""></div></td>
+                                   <td>Demand Rate/day</td>
+                                   <td><div><input id="mat-id" type="number" value="1000" class="form-control" name="" style="width: 40%;"></div></td>
+                                   <td>Sales Calculate</td>
+                                   <td><div><input type="date" name=""> to <input type="date" name=""></div></td>
                                </tr>
                                <tr>
                                    <td>Lead time</td>
-                                   <td><input id="mat-id" type="number" class="form-control" name="" style="width: 40%;"></td>
+                                   <td><input id="mat-id" type="number" class="form-control" value="4" name="" style="width: 40%;"></td>
+                                   <td>Days</td>
                                </tr>
                                <tr>
                                    <td>Safty Stock</td>
-                                   <td><input id="mat-id" type="number" class="form-control" name="" style="width: 40%;"></td>
+                                   <td><input id="mat-id" type="number" class="form-control" value="4000" style="width: 40%;"></td>
+                                   <td>Unit</td>
                                </tr>
                            </tbody>
                        </table>
                     </div>
+                     <div class="row"><a href="rop.php" class="btn btn-primary" style="margin: auto; margin-bottom: 12px;">Save</a></div>
                 </div>
 
                 <!-- <div class="row-fluid BOM bg-white">

@@ -8,41 +8,10 @@
 <body>
     <?php sidebar(); ?>
     <div class="main-panel">
-       <div class="content-wrapper">
-           <div class="content container-fluid">
-                <div class="row-fluid BOM bg-white">
-                    <div class="col-12 line-doc">
-                        <h4>BOM header</h4>
-                    </div>
-                    <div class="col-12">
-                       <table class="table">
-                           <tbody>
-                               <tr>
-                                   <td>Material</td>
-                                   <td><input id="mat-id" type="text" class="form-control" name=""></td>
-                               </tr>
-                           </tbody>
-                       </table>
-                    </div>
-                </div>
+      <div class="content-wrapper">
 
-                <div class="row-fluid BOM bg-white">
-                    <div class="col-12 line-doc">
-                        <h4>Item Detail</h4>
-                    </div>
-                    <div class="col-12">
-                       <table class="table">
-                           <tbody>
-                               <tr>
-                                   <td>sth</td>
-                                   <td><input id="mat-id" type="text" class="form-control" name=""></td>
-                               </tr>
-                           </tbody>
-                       </table>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
+    </div>
 
 
 <?php 

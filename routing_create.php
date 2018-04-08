@@ -16,7 +16,7 @@
              <div class="row"><a href="routing_allocate.php" class="btn btn-success" style="margin-left: 25px; margin-bottom: 0px; margin-top: 10px">Component Allocate</a></div>
                 <div class="row-fluid BOM bg-white">
                     <div class="col-12 line-doc">
-                        <h4>BOM header</h4>
+                        <h4>Header</h4>
                     </div>
                     <div class="col-12">
                        <table class="table">

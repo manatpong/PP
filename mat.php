@@ -30,28 +30,28 @@
                                <tr>
                                     <td>1</td>
                                    <td>MAT10001</td>
-                                   <td>น้ำดื่ม ปริมาณ 330 มิลลิลิตร</td>
+                                   <td>ขวดน้ำดื่ม ปริมาณ 330 มิลลิลิตร</td>
                                    <td>EA</td>
                                    <td>Material</td>
                                </tr>
                                <tr>
                                     <td>2</td>
                                    <td>MAT10002</td>
-                                   <td>น้ำดื่ม ปริมาณ 600 มิลลิลิตร</td>
+                                   <td>ขวดน้ำดื่ม ปริมาณ 600 มิลลิลิตร</td>
                                    <td>EA</td>
                                    <td>Material</td>
                                </tr>
                                <tr>
                                     <td>3</td>
                                    <td>MAT10003</td>
-                                   <td>น้ำดื่ม ปริมาณ 1.5 ลิตร</td>
+                                   <td>ขวดน้ำดื่ม ปริมาณ 1.5 ลิตร</td>
                                    <td>EA</td>
                                    <td>Material</td>
                                </tr>
                                <tr>
                                     <td>4</td>
                                    <td>MAT10004</td>
-                                   <td>น้ำดื่ม ปริมาณ 6 ลิตร</td>
+                                   <td>ขวดน้ำดื่ม ปริมาณ 6 ลิตร</td>
                                    <td>EA</td>
                                    <td>Material</td>
                                </tr><tr>
@@ -71,7 +71,7 @@
                                <tr>
                                     <td>7</td>
                                    <td>MAT10007</td>
-                                   <td>ฝาขวดใหญ่ 10 เซ็นติเมตร</td>
+                                   <td>ฉลาก</td>
                                    <td>EA</td>
                                    <td>Material</td>
                                </tr>

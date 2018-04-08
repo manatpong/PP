@@ -50,29 +50,29 @@
                                <tr>
                                     <td>1</td>
                                    <td>MAT10001</td>
-                                   <td>ขวดน้ำ ขนาด 600 มิลลิลิตร</td>
+                                   <td>ขวดน้ำ ขนาด 330 มิลลิลิตร</td>
                                    <td>1</td>
                                    <td>EA</td>
                                </tr>
                                <tr>
                                     <td>2</td>
-                                   <td>MAT10002</td>
-                                   <td>ฝาขวด ขนาดเล็ก 12 เซนติเมตร</td>
+                                   <td>MAT10005</td>
+                                   <td>ฝาขวด ขนาดเล็ก 7 เซนติเมตร</td>
                                    <td>1</td>
                                    <td>EA</td>
                                </tr>
                                <tr>
                                     <td>3</td>
-                                   <td>MAT10003</td>
+                                   <td>MAT10007</td>
                                    <td>ฉลาก</td>
                                    <td>1</td>
                                    <td>EA</td>
                                </tr>
                                <tr>
                                     <td>4</td>
-                                   <td>MAT10004</td>
+                                   <td>MAT10008</td>
                                    <td>น้ำ</td>
-                                   <td>1</td>
+                                   <td>0.33</td>
                                    <td>Liter</td>
                                </tr>
                            </tbody>

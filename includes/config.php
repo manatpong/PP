@@ -1,7 +1,7 @@
 <?php function head(){
     if(1){
 ?>
-        <title>Water</title>
+        <title>©PolarBear Water Corp.</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -21,6 +21,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
         <script src="js/sb-admin.min.js"></script>
+        <script src="vendor/canvasjs/canvasjs.min.js"></script>
 <?php    
     }
 } ?>
@@ -43,7 +44,7 @@
     if(1){
 ?>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top img-bg-side" id="mainNav">
-        <a class="navbar-brand" href="index.html"><i class="fas fa-tint"></i> Water</a>
+        <a class="navbar-brand" href="index.php"><img src="img\Polar-Bear-icon2.png" style="width: 30px;"> PolarBear Water</a> 
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -55,6 +56,12 @@
                 <span class="nav-link-text">Configuration</span>
               </a>
               <ul class="sidenav-second-level collapse" id="collapseComponents">
+                <li>
+                  <a href="customer.php">Customer</a>
+                </li>
+                <li>
+                  <a href="vendor.php">Vendor</a>
+                </li>
                 <li>
                   <a href="bom.php">BOM</a>
                 </li>
@@ -69,6 +76,40 @@
                 </li>
                 <li>
                   <a href="rop.php">Reorder Point</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
+              <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents2" data-parent="#exampleAccordion">
+                <i class="fas fa-file-alt" id="fa-wh"></i>&nbsp
+                <span class="nav-link-text">Documents</span>
+              </a>
+              <ul class="sidenav-second-level collapse" id="collapseComponents2">
+                <li>
+                  <a href="schedule_detail.php">Planed Order</a>
+                </li>
+                <li>
+                  <a href="production_order.php">Production Order</a>
+                </li>
+                <li>
+                  <a href="withdraw.php">Material Withdrawal</a>
+                </li>
+                <li>
+                  <a href="gr.php">Goods Receipt</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
+              <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents3" data-parent="#exampleAccordion">
+                <i class="fas fa-clipboard-list" id="fa-wh"></i>&nbsp
+                <span class="nav-link-text">Report</span>
+              </a>
+              <ul class="sidenav-second-level collapse" id="collapseComponents3">
+                <li>
+                  <a href="report_stock.php">Stock</a>
+                </li>
+                <li>
+                  <a href="report_po.php">Production Order</a>
                 </li>
               </ul>
             </li>
@@ -124,29 +165,36 @@
               </ul>
             </li>-->
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
+              <a class="nav-link" href="track.php">
+                <i class="fas fa-thumbtack" id="fa-wh"></i>
+                <span class="nav-link-text">Tracking</span>
+              </a>
+            </li>
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
+              <a class="nav-link" href="stock.php">
+                <i class="fas fa-archive" id="fa-wh"></i>
+                <span class="nav-link-text">Stock</span>
+              </a>
+            </li>
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
               <a class="nav-link" href="forecast.php">
                 <i class="fas fa-random" id="fa-wh"></i>
                 <span class="nav-link-text">Forecast</span>
               </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="reorder.php">
                 <i class="fas fa-filter" id="fa-wh"></i>
                 <span class="nav-link-text">Reorderpoint</span>
               </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="inventory_used.php">
                 <i class="fas fa-warehouse" id="fa-wh"></i>
-                <span class="nav-link-text">Inventory</span>
+                <span class="nav-link-text">Inventory Area</span>
               </a>
             </li>
-            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
-              <a class="nav-link" href="#">
-                <i class="fas fa-filter" id="fa-wh"></i>
-                <span class="nav-link-text">Report</span>
-              </a>
-            </li>
+            
           </ul>
           <ul class="navbar-nav sidenav-toggler">
             <li class="nav-item">

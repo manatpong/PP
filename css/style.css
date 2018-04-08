@@ -110,6 +110,7 @@ body{
 .table td{
 	vertical-align: inherit;
 }
+
 .mat{
 	min-width: 134px;
 }
@@ -117,6 +118,12 @@ body{
 	display: none;
 }
 
-.selection->option{
-	text-align: center;
+#chartContainer{
+	height: 400px; 
+	width: 100%;
+	margin: auto;
+}
+
+.td-mat{
+	max-width: 80px;
 }

@@ -23,7 +23,12 @@
                            <tbody>
                                <tr>
                                   <th>Material</th>
-                                   <th><input id="mat-id" type="text" class="form-control" name=""> </th>
+                                   <th><select class="selection form-control" style="text-align: center">
+                                        <option>FG30001: น้ำดื่ม ปริมาณ 330 มิลลิลิตร</option>
+                                        <option>FG30001: น้ำดื่ม ปริมาณ 600 มิลลิลิตร</option>
+                                        <option>FG30003: น้ำดื่ม ปริมาณ 1.5 ลิตร</option>
+                                        <option>FG30004: น้ำดื่ม ปริมาณ 6 ลิตร</option>
+                                    </select></th>
                                    <th><a href="routing_detail.php" class="btn btn-primary">View</a></th>
                                 </tr>
 
